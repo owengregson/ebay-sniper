@@ -1,5 +1,0 @@
-EBAY_USERNAME=__your@email.here__
-EBAY_PASSWORD=__yourpasswordhere__
-ITEM_URL=https://www.ebay.com/itm/__ # full url
-MAX_BID=__ # integer
-TEST_MODE=__ # boolean

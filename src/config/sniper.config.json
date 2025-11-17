@@ -1,0 +1,34 @@
+{
+	"itemUrl": "https://www.ebay.com/itm/...",
+	"maxBid": 30,
+	"testMode": true,
+	"workers": 2,
+	"cookiesPath": "./cookies.json",
+
+	"timing": {
+		"snipeOffsetsMs": [1900, 1600],
+		"snipeWindowStartSeconds": 12,
+
+		"monitorPollIntervals": {
+			"gt300s": 60000,
+			"gt60s": 20000,
+			"gt15s": 5000,
+			"gt10s": 2000,
+			"lte10s": 1000
+		},
+
+		"maxSafeReloadIntervalMs": 120000,
+		"rttSampleCount": 3,
+		"rttSafetyBufferMs": 200
+	},
+
+	"browser": {
+		"headless": false,
+		"defaultViewport": null,
+		"args": ["--no-sandbox"]
+	},
+
+	"logging": {
+		"level": "info"
+	}
+}
